@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
+.App{
+    background-color: #fdf6f0 !important;
+    font-family: "Optima nova",sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*.....................NavBar............................*/
+.Start {
+    text-decoration: none;
+    color: #000;
+    background-color: #F3EDEB;
+}
+.Start:hover{
+    text-decoration: underline !important;
+    color: red !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-nav{
+    margin-top: 80px;
+}
+.navbar-nav li a:hover{
+  text-decoration: underline !important;
+}
+
+.navPic{
+    margin: -70px 350px 0 250px;
+}
+
+.para{
+    margin: 100px 0 0 100px;
+    font-size: 15px;
+}
+
+
+
+
+/*.............................Body................................ */
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  
+  
+  .pic1-text {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .container .pic2{
+    margin-top:100px
   }
-}
+
+  .pic2-text {
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    color: #000;
+    font-size: 30px;
+    font-family: 'Merriweather', serif !important;
+    
+  }
+
+  .container .pic3{
+    margin-top: 100px
+  }
+
+  .pic3-text {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pic4-text {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+  .pic5-text {
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .container .pic6{
+    margin-top: 100px
+  }
+
+  .pic6-text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .pic7-text {
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .container .pic7{
+    margin-top: 100px
+  }
+
+  .pic8-text {
+    position: absolute;
+    bottom: 90px;
+    right: 2px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Merriweather', serif !important;
+    transform: translate(-50%, -50%);
+  }
+
+  .send-text {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    color: #000;
+    font-family: serif !important;
+  }
+  .send-text p{
+    font-size: 13px;
+  }
+  .send-text a{
+    font-size: 20px;
+  }
+  .send-text a u:hover{
+    color: red;
+  }
+
+
+  .studio-text {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    color: #000;
+    font-family: serif !important;
+  }
+  .studio-text a u:hover{
+    color: red;
+  }
+
+  /*......................Art Print.................*/
+  .artPrint h1{
+    color: #000;
+    font-family: serif !important;
+  }
+  .artPrint a u{
+    color: #000;
+  }
+  .artPrint a u:hover{
+    color: red;
+  }
+  .artPrint img{
+    height: 400px;
+    width: 300px;
+  }
+  .artPrint p{
+    color: #000;
+    margin-top: 10px;
+  }
+  .artPrint .tk{
+    opacity: .6;
+  }
+  
+  .new{
+    margin-top: 200px;
+  }
+  .new .form input{
+    color: #000;
+  }
+  .new .form {
+    color: #000;
+  }
+  .new .form button{
+    margin-left: 20px;
+  }
+  .visit img{
+    width: 100%;
+    height: 350px;
+  }
+
+  /*......................Footer.................*/
+  footer .first{
+    margin-left: -60px;
+  }
+ 
