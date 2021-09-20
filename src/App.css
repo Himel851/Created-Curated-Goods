@@ -169,6 +169,44 @@
   }
 
   /*......................Art Print.................*/
+
+  .hoverpic{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+  }
+  .hoverpic .art4, .art5, .art6{
+    position: absolute;
+    display: none;
+  }
+  .hoverpic:hover .art1{
+    display: none;
+  }
+  .hoverpic:hover .art4{
+    display: inline;
+    margin-left: -150px;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px yellowgreen;
+  } 
+  .hoverpic:hover .art2{
+    display: none;
+  }
+  .hoverpic:hover .art5{
+    display: inline;
+    margin-left: -150px;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px yellowgreen;
+  }
+  .hoverpic:hover .art3{
+    display: none;
+  }
+  .hoverpic:hover .art6{
+    display: inline;
+    margin-left: -150px;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px yellowgreen;
+  }
   .artPrint h1{
     color: #000;
     font-family: serif !important;
@@ -179,7 +217,7 @@
   .artPrint a u:hover{
     color: red;
   }
-  .artPrint img{
+  .hoverpic img{
     height: 400px;
     width: 300px;
   }

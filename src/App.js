@@ -1,9 +1,9 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import navpic from './Images/navbar.png';
 import Body from './components/Body.js';
 import ArtPrint from './components/ArtPrint';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -63,8 +63,8 @@ function App() {
 
       
         <ArtPrint/>
-
         <Footer/>
+        
         
 
 
